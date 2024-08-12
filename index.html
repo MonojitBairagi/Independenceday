@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>CSS Flag Project</title>
+  <style>
+    /* Write your CSS Code here */
+    body{
+      background-color: black;
+    }
+    .flag{
+      height: 300px;
+      width: 400px;
+      border: 2px solid black;
+      position: relative;
+      top:200px;
+      left:550px;
+    }
+    .box{
+      height: 100px;
+      
+    }
+    #orange{
+      background-color: rgb(255, 70, 22);
+    }
+    #white{
+      background-color: white;
+    }
+    #green{
+      background-color: green;
+    }
+    #blue{
+      height: 100px;
+      width: 100px;
+      background-color: blue;
+      border-radius: 50%;
+      position: absolute;
+      left:37%;
+      
+    }
+    h1{
+      position: relative;
+      top: 150px;
+    }
+    .text{
+      color: white;
+      text-align: center;
+    }
+    footer{
+      position: relative;
+      top:220px;
+    }
+  </style>
+</head>
+
+<!-- 
+  IMPORTANT! Do not change any HTML
+Don't add any classes/ids/elements 
+Use what you know about combining selectors 
+and CSS specificity instead.
+Hint 1: The flag is 900px by 600px and the circle is 200px by 200px.
+Hint 2: You can use CSS inspection to get the colors from
+https://appbrewery.github.io/flag-of-laos/
+-->
+
+<body>
+  <h1 class="text">HAPPY INDEPENDENCE DAY TO YOU DISHA</h1>
+  <div class="flag">
+    <div id="orange" class="box"></div>
+    <div id="white" class="box">
+      <div id="blue">
+        
+      </div>
+    </div>
+    <div id="green" class="box"></div>
+  </div>
+  <footer class="text">Please try to talk whenever you are free</footer>
+</body>
+
+</html>

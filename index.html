@@ -9,13 +9,22 @@
     body{
       background-color: black;
     }
+    .container{
+      display:flex;
+      /* height: 500px; */
+      width: 700px;
+      flex-direction: row;
+      flex-wrap: wrap;
+      gap: 21px;
+      justify-content:center;
+      margin: auto;
+      margin-top: 100px;
+    }
+    
     .flag{
       height: 300px;
       width: 400px;
       border: 2px solid black;
-      position: relative;
-      top:200px;
-      left:550px;
     }
     .box{
       height: 100px;
@@ -25,6 +34,8 @@
       background-color: rgb(255, 70, 22);
     }
     #white{
+      display:flex;
+      justify-content:center;
       background-color: white;
     }
     #green{
@@ -35,21 +46,16 @@
       width: 100px;
       background-color: blue;
       border-radius: 50%;
-      position: absolute;
-      left:37%;
       
     }
-    h1{
-      position: relative;
-      top: 150px;
-    }
+    
     .text{
       color: white;
-      text-align: center;
+  
     }
     footer{
-      position: relative;
-      top:220px;
+      color: white;
+      width: 330px;
     }
   </style>
 </head>
@@ -65,6 +71,7 @@ https://appbrewery.github.io/flag-of-laos/
 -->
 
 <body>
+<div class="container">
   <h1 class="text">HAPPY INDEPENDENCE DAY TO YOU DISHA</h1>
   <div class="flag">
     <div id="orange" class="box"></div>
@@ -75,7 +82,8 @@ https://appbrewery.github.io/flag-of-laos/
     </div>
     <div id="green" class="box"></div>
   </div>
-  <footer class="text">Please try to talk whenever you are free</footer>
+  <footer class="text">Please try to talk whenever you are free I will</footer>
+</div>
 </body>
 
 </html>
